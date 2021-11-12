@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Max Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="info">
+                <img src="3879.jpg" alt="photo" class="avatar"/>
+
+                <div class="info-text">
+                    <h1>Максим Лихачев</h1>
+                    <p>Я обучаюсь программированию <strong>HTML, CSS и JavaScript</strong>.</p>
+                    <p>Я люблю путешествовать, заниматься спортом и программировать.</p>
+
+                    <h4>Мои социальные сети</h4>
+                    
+                    <a href="https://instagram.com" target="_blanc">Instagram</a>
+                    |
+                    <a href="https://vk.com" target="_blanc">Вконтакте</a>
+                    |
+                    <a href="whatsapp.com">WhatsApp</a>
+                </div>
+            </div>
+
+            <div class="card bg-yellow">
+                <h2>Мои хобби</h2>
+                <ol class="list">
+                    <li>Футбол</li>
+                    <li>Программирование</li>
+                    <li>Путешествие</li>
+
+                </ol>
+            </div>
+
+            <div class="card bg-green">
+                <h2>Опыт работы</h2>
+                <table class="table"> <!-- border - устаревший вариант, рамкки делают в CSS -->
+                    <tr>
+                        <td>АО "НЛМК - Инжиниринг"</td>
+                        <td>Инженер 2 кат.</td>
+                        <td>2016 - 2018</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Газпром"</td>
+                        <td>Инженер 2 кат.</td>
+                        <td>2018 - 2019</td>
+                    </tr>
+                    <tr>
+                        <td>ООО "Инстамарт сервис"</td>
+                        <td>Водитель - курьер</td>
+                        <td>2019 - 2020</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="card bg-red">
+                <h2>Youtube курсы</h2>
+                <ul class="link-list">
+                    <li>
+                        <a href="https://thecode.media/visual-studio-code/">→ JS cours для новичков</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD">→ CSS для Начинающих - Практический Курс</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h2>Связаться со мной</h2>
+                <form action="/">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="name">Ваше имя:</label>
+                            <input type="text" id="name" placeholder="Введите имя ...">
+                        </div>  
+                        <div class="form-group">
+                            <label for="email">Ваш email:</label>
+                            <input type="email" id="email" placeholder="info@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Ваше сообщение:</label>
+                    
+                        <textarea name="" id="text" cols="30" rows="4"></textarea>
+                    </div>
+                    <div class="btn-cont">
+                        <input class="btn" type="submit" value="Связаться">
+                    </div>
+                    <br><br><br>
+            </div>
+                </form>
+        </div>
+    </body>
+</html>
